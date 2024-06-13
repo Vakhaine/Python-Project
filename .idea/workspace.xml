@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edbd2e06-d711-40ff-88ae-0bd845c6dec0" name="Changes" comment="Day 33: Filtered Forcast Data">
-      <change afterPath="$PROJECT_DIR$/old_backend.py" afterDir="false" />
+    <list default="true" id="edbd2e06-d711-40ff-88ae-0bd845c6dec0" name="Changes" comment="Day 33: Added sky Conditions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -37,17 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.backend.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Saxone/app7-weather-forcast&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Saxone/app7-weather-forcast/main.py&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.backend.executor": "Debug",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Saxone/app7-weather-forcast",
+    "two.files.diff.last.used.file": "C:/Users/Saxone/app7-weather-forcast/main.py"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Saxone\app7-weather-forcast" />
@@ -123,12 +122,40 @@
       <option name="project" value="LOCAL" />
       <updated>1717176435537</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 33: Added sky Conditions">
+      <option name="closed" value="true" />
+      <created>1717862336619</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717862336619</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Day 33: Added sky Conditions">
+      <option name="closed" value="true" />
+      <created>1717862353541</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717862353541</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 32: Add streamlit widgets" />
     <MESSAGE value="Day 33: Filtered Forcast Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 33: Filtered Forcast Data" />
+    <MESSAGE value="Day 33: Added sky Conditions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 33: Added sky Conditions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

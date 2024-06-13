@@ -14,13 +14,22 @@ def get_data(place, forcast_days):
 
     data = response.json()
 
-    filtered_data_1 = data["list"]
+    try:
+        filtered_data_1 = data["list"]
+    except KeyError as e:
+        print(f"Error: {e}. The city '{place}' is not found.")
+        return None
 
     if not filtered_data_1:  # Check if list is empty
 
         return None  # Or handle empty list case differently
 
-    nr_values = 8 * (forcast_days - 1)
+    nr_values = 0
+
+    if forcast_days < 1:
+        nr_values = 0
+    else:
+        nr_values = 8 * (forcast_days - 1)
 
     filtered_data = filtered_data_1[nr_values: nr_values + 8 * forcast_days]
 
